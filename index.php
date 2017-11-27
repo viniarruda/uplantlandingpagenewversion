@@ -64,6 +64,10 @@
   <link rel="stylesheet" type="text/css" href="dist/components/input.css">
   <link rel="stylesheet" type="text/css" href="dist/components/label.css">
 
+
+  <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+
   <link href='https://fonts.googleapis.com/css?family=Numans' rel='stylesheet'>
 
   <script src="assets/library/jquery.min.js"></script>
