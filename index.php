@@ -6,6 +6,7 @@
     $conexao = mysqli_connect("$hostname_config","$username_config","$password_config","$database_config")
                 or die (mysqli_error());
 ?>
+
 <?php if(isset($_POST['newsletter']) && $_POST['newsletter'] == 'pronto') {
     $emailNews = $_POST['emailNews'];
     $verificar_newsletter = "SELECT emailNews FROM newsletter WHERE emailNews = '$emailNews' ";
@@ -159,11 +160,14 @@
 
 
     <div class="ui inverted vertical footer segment">
-      <div class="ui container">
-        <div class="ui stackable inverted divided equal height stackable grid">
+    <div class="ui container">
+      <div class="ui stackable inverted divided equal height stackable grid">
+        <div class="nine wide column">
+          <small>Copyright © 2017 Uplant - Todos os direitos reservados</small>
         </div>
       </div>
     </div>
+  </div>
   </div>
 
   <!-- BEGIN JIVOSITE CODE {literal} -->
