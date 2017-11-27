@@ -64,7 +64,7 @@ body, .ui.menu,   .ui.header {
   }
 
   .footer.segment {
-    padding: 5em 0em;
+    padding: 10px 0px 0px 0px;
   }
 
   @media only screen and (max-width: 700px) {
@@ -90,7 +90,13 @@ body, .ui.menu,   .ui.header {
     }
     .masthead h2 {
       margin-top: 0.5em;
-      font-size: 1.5em;
+      font-size: 0.8em;
+      margin-bottom: 70px;
+      padding: 0px 20px;
+    }
+    .ui.inverted.header {
+      font-size: 31px;
+      margin-top: 49px;
     }
   }
 
@@ -146,7 +152,9 @@ img.ui.bordered.image {
   }
 }
 
-
+.ui.text.container{
+  text-align: center;
+}
 .text-left{
   text-align: left;
 }
