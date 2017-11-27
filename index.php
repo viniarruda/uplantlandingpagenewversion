@@ -12,7 +12,7 @@
     $query = mysqli_query($conexao, $verificar_newsletter)
              or die (mysqli_error());
     if( @mysqli_num_rows($query) >= '1' ) {
-      echo "<script language='javascript' type='text/javascript'>alert('E-mail já cadastrado');</script>";
+      echo "<script language='javascript' type='text/javascript'>alert('Cadastro realizado com sucesso');</script>";
     } else {
       $cadastra_newsletter = "INSERT INTO newsletter (emailNews) VALUES ('$emailNews')";
       $query_insert = mysqli_query($conexao, $cadastra_newsletter);
