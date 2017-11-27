@@ -135,7 +135,7 @@
           <div class="row">
             <div class="nine wide column">
               <h3 class="ui header">Fazemos Seu Dinheiro Nascer Em Árvore</h3>
-              <p>Com o pib de x% ao ano, o agronegócio torna-se um investimento precioso para aqueles que desejam um ótimo retorno. E a Uplant te auxília a encontrar um ótimo investimento.</p>
+              <p>Com o pib de 23% ao ano, o agronegócio torna-se um investimento precioso para aqueles que desejam um ótimo retorno. E a Uplant te auxília a encontrar um ótimo investimento.</p>
               <h3 class="ui header">Fique Informado!</h3>
               <p>Informe-nos seu e-mail para que possamos conversar com você e sempre proporcionar o melhor investimento!</p>
               <div class="ui action left icon input">
